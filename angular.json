@@ -12,7 +12,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "hns",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
@@ -28,7 +28,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "public",
               }
             ],
             "styles": [
@@ -98,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "dc61cd3b-6064-42d2-888e-dfe4ecba4005"
   }
 }

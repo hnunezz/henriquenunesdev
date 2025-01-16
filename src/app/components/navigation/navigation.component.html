@@ -1,0 +1,9 @@
+<section>
+  <ul>
+    @for (nav of navigation; track $index) {
+    <li [ngClass]="{'active': nav.active}" (click)="setNav(nav.anchor)">
+      <span> {{nav.label}} </span>
+    </li>
+    }
+  </ul>
+</section>

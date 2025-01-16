@@ -1,0 +1,19 @@
+<section>
+  <main>
+    <h2> Levando aplicações web ao <b>próximo nível.</b> </h2>
+
+    <ul>
+      @for (project of projects; track $index) {
+        <li (click)="viewProject(project)">
+          <div  [ngStyle]="{'background-image': 'url('+ project.images[0]+ ')' }">
+          </div>
+
+          <p>
+            <b> {{ project.title }}</b>
+            <small> {{ project.year }} </small>
+          </p>
+        </li>
+      }
+    </ul>
+  </main>
+</section>
