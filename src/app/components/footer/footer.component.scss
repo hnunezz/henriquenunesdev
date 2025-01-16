@@ -13,7 +13,6 @@ footer {
       transition: ease-out 0.3s;
       opacity: 1;
 
-
       @keyframes slide-right-normal {
         0% {
           transform: translateX(0);
@@ -22,7 +21,6 @@ footer {
           transform: translateX(100px);
         }
       }
-
     }
     &:hover {
       transition: ease 0.3s;
@@ -107,8 +105,8 @@ footer {
 @media only screen and (max-width: 500px) {
   footer {
     div.hns-logo-footer {
-      svg{
-        width: 380px;
+      svg {
+        width: 340px;
       }
     }
   }
