@@ -220,10 +220,15 @@ main {
       }
 
       div.email {
-        width: 70%;
+        width: 90%;
         flex-direction: column;
         justify-content: center;
         white-space: nowrap;
+        align-items: flex-start;
+        padding: 0 10px;
+        span {
+          font-size: 14Conpx;
+        }
         b {
           font-size: 16px;
         }

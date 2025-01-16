@@ -9,7 +9,7 @@ import { IProject } from '../../../assets/data/type';
   templateUrl: './sidemenu.component.html',
   styleUrl: './sidemenu.component.scss'
 })
-export class SidemenuComponent {
+export class SidemenuComponent{
   showmenu: boolean = false
 
   project?: IProject;
@@ -18,7 +18,13 @@ export class SidemenuComponent {
     this.projectService.getObservable().subscribe(x => {
       this.project = x
       this.showmenu = !this.showmenu
+
+      const section = document.getElementById("section") as HTMLElement
+      if (section) {
+        section.scroll({top:0,behavior:'smooth'})
+      }
     });
+
   }
 
   close() {

@@ -110,4 +110,14 @@ main {
   header {
     visibility: hidden;
   }
+
+  main {
+    section {
+      h1 {
+        line-height: 60px;
+        font-size: 58px;
+        letter-spacing: -1.5px;
+      }
+    }
+  }
 }
