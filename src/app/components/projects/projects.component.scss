@@ -93,3 +93,28 @@ section {
     }
   }
 }
+
+@media only screen and (max-width: 500px) {
+  section {
+    main {
+      ul {
+        width: 90%;
+
+        li {
+          width: 100%;
+          padding: 16px 0px;
+          align-items: center;
+
+          div {
+            padding: 16px;
+            width: calc(100% - 64px);
+          }
+
+          p {
+            width: calc(100% - 32px);
+          }
+        }
+      }
+    }
+  }
+}

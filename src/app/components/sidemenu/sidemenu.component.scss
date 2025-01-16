@@ -114,3 +114,41 @@ main {
     }
   }
 }
+
+@media only screen and (max-width: 500px) {
+  main {
+    width: 100%;
+
+    header {
+      padding: 48px 20px 0px 20px;
+
+      div.close {
+        width: 54px;
+        height: 54px;
+      }
+    }
+
+    section {
+      width: 100%;
+      padding: 0;
+
+      p {
+        width: calc(100% - 20px);
+        padding: 0 10px;
+      }
+
+      div.images-section {
+        align-items: center;
+        div.images {
+          height: 220px;
+          width: calc(100% - 20px);
+
+          &.Casamento {
+            height: 560px;
+          }
+
+        }
+      }
+    }
+  }
+}

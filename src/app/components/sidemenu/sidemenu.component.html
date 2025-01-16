@@ -28,9 +28,9 @@
   <section>
     <p [innerHTML]="project?.text"></p>
 
-    <div class="images-section">
+    <div class="images-section" >
       @for (item of project?.images; track $index) {
-      <div class="images" [ngStyle]="{'background-image': 'url('+ item+ ')' }">
+      <div class="images {{project?.title?.trim()}}" [ngStyle]="{'background-image': 'url('+ item+ ')' }">
         &nbsp;
       </div>
       }
