@@ -45,9 +45,10 @@ main {
 
       img {
         width: 440px;
-        height: 478px;
         border-radius: 16px;
         opacity: 70%;
+
+        object-fit: cover;
       }
 
       div.grid {
@@ -237,6 +238,7 @@ main {
       aside {
         img {
           width: 90%;
+
         }
         div.grid {
           display: flex;

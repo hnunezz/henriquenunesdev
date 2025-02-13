@@ -41,7 +41,7 @@ export const projects = [
     year: '2024',
     link: '',
     text: `<p>
-  Desenvolvemos uma <b>plataforma administrativa</b> para uma <b>empresa privada,</b> projetada para atender suas demandas operacionais e gerenciais.
+  Participei do desenvolvimento de uma <b>plataforma administrativa</b> para uma <b>empresa privada,</b> projetada para atender suas demandas operacionais e gerenciais.
 </p>
 <br>
 <p>
@@ -49,7 +49,7 @@ export const projects = [
 </p>
 <br>
 <p>
-  Também foi desenvolvido um <b>design system</b> exclusivo, com componentes reutilizáveis e uma identidade visual consistente,
+  Também foi mantido/desenvolvido um <b>design system</b>, com componentes reutilizáveis e uma identidade visual consistente,
   assegurando escalabilidade e agilidade na implementação de novas funcionalidades.
 </p>`,
     images: [
@@ -64,7 +64,7 @@ export const projects = [
     year: '2024',
     link: '',
     text: `<p>
-  <b>Desenvolvemos uma plataforma de cursos completa e moderna,</b> projetada para atender tanto administradores quanto alunos.
+  <b>Desenvolvido uma plataforma de cursos completa e moderna,</b> projetada para atender tanto administradores quanto alunos.
   A solução oferece uma interface <b>intuitiva e organizada</b>, permitindo uma experiência de aprendizado eficiente e dinâmica.
 </p>
 <br>
