@@ -9,7 +9,7 @@ import { IProject } from '../../../assets/data/type';
   templateUrl: './sidemenu.component.html',
   styleUrl: './sidemenu.component.scss'
 })
-export class SidemenuComponent{
+export class SidemenuComponent {
   showmenu: boolean = false
 
   project?: IProject;
@@ -21,7 +21,7 @@ export class SidemenuComponent{
 
       const section = document.getElementById("section") as HTMLElement
       if (section) {
-        section.scroll({top:0,behavior:'smooth'})
+        section.scroll({ top: 0, behavior: 'smooth' })
       }
     });
 
@@ -32,9 +32,7 @@ export class SidemenuComponent{
   }
 
   goTo(url?: string) {
-    console.log("", url)
-    if (url) {
-      window.open(url, '_blank');
-    }
+    this.showmenu = false
+    document.getElementById('Contato')?.scrollIntoView();
   }
 }

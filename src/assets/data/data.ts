@@ -154,6 +154,7 @@ export const projects = [
       'https://github.com/user-attachments/assets/eda9edcc-1ed2-4d68-9d80-eeca4caabc2f',
       'https://github.com/user-attachments/assets/8a94e8f6-5122-4a02-83a5-dcf8d98e5467',
       'https://github.com/user-attachments/assets/e0827c4f-54a4-486d-bf0f-f205f1dd07ea',
+      'https://github.com/user-attachments/assets/33b61470-42d0-4706-b75a-c9fc21ee1d8c',
     ]
   },
 ]

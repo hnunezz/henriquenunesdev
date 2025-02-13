@@ -10,7 +10,7 @@
           <span>Acessar site</span>
         </button>
       } @else {
-        <button class="hns-button disable" >
+        <button class="hns-button hns-secondary" (click)="goTo(project?.link)">
           <span>Entre em contato para ver mais</span>
         </button>
       }
