@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Ultimate Champion Creator',
     year: '2024',
-    link: 'https://ultimatechampioncreator.netlify.app/',
+    link: 'https://ultimate-champion-creator.vercel.app/',
     text: `<p>
   <b>Imagine ser capaz de criar seu próprio campeão,</b> combinando as habilidades icônicas do jogo.
   Com nossa <b>plataforma interativa</b>, você pode preencher os comandos básicos de League of Legends -
