@@ -33,6 +33,11 @@ export class SidemenuComponent {
 
   goTo(url?: string) {
     this.showmenu = false
+
+    if (url) {
+      window.open(url, '_blank');
+      return;
+    }
     document.getElementById('Contato')?.scrollIntoView();
   }
 }

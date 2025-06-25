@@ -32,10 +32,18 @@ main {
         line-height: 24px;
       }
 
-      b {
+      a {
         font-size: 24px;
         font-weight: 700;
         line-height: 28.8px;
+        text-decoration: none;
+        transition: ease-out 0.3s;
+        color: white;
+
+        &:hover {
+          transition: ease 0.3s;
+          color: #babaf9;
+        }
       }
     }
 
@@ -230,7 +238,7 @@ main {
         span {
           font-size: 12px;
         }
-        b {
+        a {
           font-size: 14px;
         }
       }

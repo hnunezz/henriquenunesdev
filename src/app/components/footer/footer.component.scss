@@ -12,20 +12,21 @@ footer {
       font-size: 324px;
       transition: ease-out 0.3s;
       opacity: 1;
-
-      @keyframes slide-right-normal {
-        0% {
-          transform: translateX(0);
-        }
-        100% {
-          transform: translateX(100px);
-        }
-      }
+      animation: slide-left-normal 1s ease 0s 1 normal none;
     }
     &:hover {
       transition: ease 0.3s;
       cursor: grab;
       animation: slide-right-normal 1s ease 0s 1 normal none;
+    }
+
+    @keyframes slide-right-normal {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(100px);
+      }
     }
   }
 
@@ -108,6 +109,31 @@ footer {
       svg {
         width: 340px;
       }
+    }
+  }
+
+  .footer-help {
+    flex-direction: column !important;
+    gap: 20px;
+    padding: 20px 0px;
+    height: 150px !important;
+  }
+}
+
+.footer-help {
+  background-color: #191919;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  span {
+    color: white;
+
+    &.click:hover {
+      cursor: pointer;
+      transition: ease-in;
+      opacity: 0.8;
     }
   }
 }
