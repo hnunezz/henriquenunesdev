@@ -26,7 +26,7 @@
   </header>
 
   <section id="section">
-    <p [innerHTML]="project?.text"></p>
+    <p [innerHTML]="project?.text | safeHtml"></p>
 
     <div class="images-section" >
       @for (item of project?.images; track $index) {

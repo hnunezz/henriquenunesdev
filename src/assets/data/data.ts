@@ -1,32 +1,61 @@
 export const projects = [
   {
+    title: '✨ Whats my dream Means ✨',
+    year: '2025',
+    thumbnail: '/assets/imgs/wmdm.png',
+    link: 'https://whats-my-dream-mean.vercel.app/',
+    text: `  <p>
+    <b>Desenvolvido um projeto interativo de interpretação de sonhos</b>, utilizando a API da OpenAI para oferecer
+    <span style="color:#008cff;">respostas inteligentes</span> com base em significados tradicionais, culturais e psicológicos.
+  </p>
+  <p>
+    A aplicação foi construída com <b>Angular v19 + SSR</b>, garantindo alta performance e renderização no servidor,
+    além de suporte completo a SEO. A resposta é exibida de forma adaptativa, com
+    <span style="color:#008cff;">destaques visuais</span>.
+  </p>
+  <p>
+    A experiência do usuário é o foco: com uma interface leve, um campo para digitação do sonho e retorno instantâneo
+    da análise
+  </p>
+  <p style="margin-top: 1rem;">
+    <a href="/"
+       target="_blank"
+       style="color:#0a66c2; font-weight:bold; text-decoration: none;">
+      🔗 Compartilhar no LinkedIn
+    </a>
+  </p>`,
+    images: [
+      '/assets/imgs/wmdm/image_1.png',
+      '/assets/imgs/wmdm/image_2.png',
+      '/assets/imgs/wmdm/image_3.png',
+    ]
+  },
+  {
     title: 'Ultimate Champion Creator',
-    year: '2024',
+    year: '2025',
+    thumbnail: '/assets/imgs/ucc.png',
     link: 'https://ultimate-champion-creator.vercel.app/',
     text: `<p>
-  <b>Imagine ser capaz de criar seu próprio campeão,</b> combinando as habilidades icônicas do jogo.
-  Com nossa <b>plataforma interativa</b>, você pode preencher os comandos básicos de League of Legends -
-  <span style="color: #d9534f;">P</span>,
-  <span style="color: #f0ad4e;">Q</span>,
-  <span style="color: #5bc0de;">W</span>,
-  <span style="color: #5cb85c;">E</span> e
-  <span style="color: #292b2c;">R</span> - com habilidades selecionadas de qualquer campeão existente.
-</p>
-<br>
-<p>
-  <b>Explore e deixe sua criatividade fluir!</b> Escolha a habilidade perfeita para cada comando básico, combinando
-  ataques poderosos, habilidades especiais e efeitos únicos. Crie uma
-  <span style="font-style: italic;">sinergia estratégica</span> que se adapte ao seu estilo de jogo e surpreenda seus oponentes.
-</p>
-<br>
-<p>
-  <b>Compartilhe sua criação com o mundo!</b> E a diversão não para por aí! Depois de criar seu campeão personalizado,
-  você pode compartilhar com orgulho sua <b>combinação única de habilidades</b> nas mídias sociais.
-</p>
-<br>
-<p>
-  Aventure-se na criação do campeão perfeito, compartilhe seu talento com o mundo e faça história em League of Legends.
-</p>`,
+        <b>Crie seu próprio campeão de LoL</b> combinando habilidades icônicas! Monte os comandos
+        <span style="color:#d9534f;"><b>P</b></span>,
+        <span style="color:#d9534f;"><b>Q</b></span>,
+        <span style="color:#d9534f;"><b>W</b></span>,
+        <span style="color:#d9534f;"><b>E</b></span> e
+        <span style="color:#d9534f;"><b>R</b></span> com qualquer skill do jogo.
+      </p>
+      <p>
+        <b>Seja criativo!</b> Combine efeitos, sinergias e estratégias para surpreender os oponentes.
+      </p>
+      <p>
+        <b>Compartilhe sua criação!</b> Mostre seu campeão personalizado nas redes e desafie seus amigos!
+      </p>
+        <p style="margin-top: 1rem;">
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7350865246183374848/"
+       target="_blank"
+       style="color: #0a66c2; text-decoration: none; font-weight: bold;">
+      📢 Veja no LinkedIn
+    </a>
+  </p>`,
     images: [
       'https://github.com/user-attachments/assets/0884729f-a7ac-48b9-8278-3fa673698112',
       'https://github.com/user-attachments/assets/a88d5f7c-50e3-4362-a275-286e1126a7cc',
@@ -36,53 +65,67 @@ export const projects = [
       'https://github.com/user-attachments/assets/5c96f9f7-b87f-4b73-839c-26ce436ccf94',
     ]
   },
-  {
-    title: 'Plataforma administrativa',
-    year: '2024',
-    link: '',
-    text: `<p>
-  Participei do desenvolvimento de uma <b>plataforma administrativa</b> para uma <b>empresa privada,</b> projetada para atender suas demandas operacionais e gerenciais.
-</p>
-<br>
-<p>
-  A atuação incluiu <b>todo o desenvolvimento frontend</b>, com foco em uma interface <span style="font-style: italic;">intuitiva</span> e <span style="font-style: italic;">eficiente</span>, garantindo uma experiência de usuário aprimorada.
-</p>
-<br>
-<p>
-  Também foi mantido/desenvolvido um <b>design system</b>, com componentes reutilizáveis e uma identidade visual consistente,
-  assegurando escalabilidade e agilidade na implementação de novas funcionalidades.
-</p>`,
-    images: [
-      'https://github.com/user-attachments/assets/d9aff663-7be3-49ec-86b9-8a60b550fc77',
-      'https://github.com/user-attachments/assets/d2329d0d-f03e-4039-8c2f-ae9e1d4ac8f1',
-      'https://github.com/user-attachments/assets/a7d3747c-c62d-4a0a-9dfe-67c527c81386',
-      'https://github.com/user-attachments/assets/65d9992b-cfce-42dc-b2a6-bd96e40b8b52',
-    ]
-  },
+  // {
+  //   title: 'Plataforma administrativa',
+  //   year: '2024',
+  //   link: '',
+  //   thumbnail: '/assets/imgs/image.png',
+  //   text: `  <p>
+  //   <b>Participei do desenvolvimento</b> de uma plataforma administrativa para uma empresa privada,
+  //   projetada para atender suas <span style="color:#5cb85c;"><b>demandas operacionais</b></span> e
+  //   <span style="color:#5cb85c;"><b>gerenciais</b></span>.
+  //   </p>
+  //   <p>
+  //     A atuação incluiu todo o <b>desenvolvimento frontend</b>, com foco em uma
+  //     <span style="color:#5cb85c;">interface intuitiva</span> e
+  //     <span style="color:#5cb85c;">eficiente</span>, garantindo uma
+  //     <b>experiência de usuário aprimorada</b>.
+  //   </p>
+  //   <p>
+  //     Também foi criado um <b>design system</b>, com
+  //     <span style="color:#5cb85c;">componentes reutilizáveis</span> e uma
+  //     <span style="color:#5cb85c;">identidade visual consistente</span>, assegurando
+  //     <b>escalabilidade</b> e <b>agilidade</b> na entrega de novas funcionalidades.
+  //   </p>`,
+  //   images: [
+  //     'https://github.com/user-attachments/assets/d9aff663-7be3-49ec-86b9-8a60b550fc77',
+  //     'https://github.com/user-attachments/assets/d2329d0d-f03e-4039-8c2f-ae9e1d4ac8f1',
+  //     'https://github.com/user-attachments/assets/a7d3747c-c62d-4a0a-9dfe-67c527c81386',
+  //     'https://github.com/user-attachments/assets/65d9992b-cfce-42dc-b2a6-bd96e40b8b52',
+  //   ]
+  // },
   {
     title: 'Plataforma de cursos',
     year: '2024',
     link: '',
-    text: `<p>
-  <b>Desenvolvido uma plataforma de cursos completa e moderna,</b> projetada para atender tanto administradores quanto alunos.
-  A solução oferece uma interface <b>intuitiva e organizada</b>, permitindo uma experiência de aprendizado eficiente e dinâmica.
-</p>
-<br>
-<p>
-  A estrutura das aulas é baseada em <b>módulos</b>, proporcionando flexibilidade na organização do conteúdo,
-  com opções para <span style="font-style: italic;">aulas individuais</span> e <span style="font-style: italic;">cursos completos</span>.
-  Os vídeos gravados são disponibilizados de forma prática, garantindo <b>fácil acesso</b> ao conteúdo por parte dos alunos.
-</p>
-<br>
-<p>
-  Para os administradores, a plataforma conta com um <b>painel exclusivo</b> para gerenciar usuários, organizar os cursos
-  e monitorar o desempenho, trazendo <b>maior controle e autonomia</b> na administração do sistema.
-</p>
-<br>
-<p>
-  O layout foi projetado com suporte a <b>dark mode</b> e <b>light mode</b>, permitindo aos usuários personalizarem a aparência
-  de acordo com suas preferências, garantindo conforto visual em qualquer ambiente de uso.
-</p>`,
+    thumbnail: '/assets/imgs/cuce.png',
+    text: ` <p>
+    <b>Desenvolvida uma plataforma de cursos completa e moderna</b>, projetada para atender tanto
+    <span style="color:#F2653A;"><b>administradores</b></span> quanto
+    <span style="color:#F2653A;"><b>alunos</b></span>. A solução oferece uma
+    <span style="color:##F2653A;">interface intuitiva e organizada</span>, promovendo uma
+    <b>experiência de aprendizado eficiente e dinâmica</b>.
+  </p>
+  <p>
+    A estrutura das aulas é baseada em <b>módulos</b>, proporcionando
+    <span style="color:#F2653A;">flexibilidade na organização</span> do conteúdo, com suporte a
+    <b>aulas individuais</b> e <b>cursos completos</b>. Os vídeos gravados são
+    <span style="color:##F2653A;">disponibilizados de forma prática</span>, facilitando o acesso ao conteúdo pelos alunos.
+  </p>
+  <p>
+    Para os administradores, a plataforma conta com um <b>painel exclusivo</b> para
+    <span style="color:#F2653A;">gerenciar usuários</span>,
+    <span style="color:#F2653A;">organizar cursos</span> e
+    <span style="color:#F2653A;">monitorar desempenho</span>, oferecendo
+    <b>mais controle e autonomia</b> na administração.
+  </p>
+  <p>
+    O layout foi projetado com suporte a
+    <span style="color:#F2653A;"><b>dark mode</b></span> e
+    <span style="color:#F2653A;"><b>light mode</b></span>, permitindo aos usuários
+    <span style="color:#F2653A;">personalizar a aparência</span> conforme suas preferências, garantindo
+    <b>conforto visual</b> em qualquer ambiente.
+  </p>`,
     images: [
       'https://github.com/user-attachments/assets/f4c5d13d-4cee-417b-bdb9-6c4d70b9d41f',
       'https://github.com/user-attachments/assets/38918dac-69f9-4da5-8f66-1af3000671a5',
@@ -93,9 +136,10 @@ export const projects = [
     ]
   },
   {
-    title: 'Site de Casamento',
+    title: 'Site de Casamento 💍',
     year: '2024',
     link: '',
+    thumbnail: '/assets/imgs/im-wedding.png',
     text: `<p>
   <b>Desenvolvemos um site exclusivo para o casamento de Isabella e Mauricio,</b> com o objetivo de proporcionar uma experiência
   única e prática para seus convidados. O site foi estruturado como um <b>convite digital</b>, reunindo todas as informações
@@ -120,9 +164,10 @@ export const projects = [
     ]
   },
   {
-    title: 'Site de Casamento',
+    title: 'Site de Casamento 💍',
     year: '2022',
     link: '',
+    thumbnail: '/assets/imgs/pw-wedding.png',
     text: `<p>
   <b>Criamos um site exclusivo para o casamento de Wendell e Pamela,</b> projetado para ser mais que um simples convite,
   mas uma verdadeira ferramenta para organizar e compartilhar momentos especiais. O site incluiu todas as informações
